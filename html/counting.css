@@ -1,0 +1,42 @@
+body,html{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.bgimg{
+    position: relative;
+    background-image: url(../images/lane.jpg);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.middle{
+    position: absolute;
+    left:50%;
+    bottom:50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.middle h1{
+    color:#eaeaea;
+    font-size: 3em;
+    letter-spacing: .3em;
+}
+
+#demo{
+    display:block;
+    font-weight: lighter;
+    word-spacing: 1.7em;
+    color:white;
+    /* letter-spacing: 1.5em; */
+}
+
+hr{
+    margin:auto;
+    width:80%;
+    border:1.px solid #fff;
+}
