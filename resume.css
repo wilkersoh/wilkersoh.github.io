@@ -285,10 +285,18 @@ h1{
 
 /*Footer*/
 .footer{
+    display:flex;
+    flex-direction: column;
     background-color: #000;
     color:#fff;
     padding:5em;
 }
+
+.social{display:flex; justify-content: center;cursor: pointer;}
+.f{color:blue;}
+.f:hover{background-color: rgb(39, 39, 230)}
+/* .i:hover{background-color: rgb(241, 105, 128)} */
+.g:hover{background-color: rgb(167, 57, 167)}
 
 
 /* Work && About && Footer*/
